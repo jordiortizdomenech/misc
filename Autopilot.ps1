@@ -5,4 +5,9 @@ Install-Script -Name Get-WindowsAutopilotInfo -Force
 Install-Script -Name Get-WindowsAutopilotInfoCommunity -Force
 Install-Script -Name Get-AutopilotDiagnostics -Force
 Install-Script -Name Get-AutopilotDiagnosticsCommunity -Force
-#Get-WindowsAutopilotInfo -Online
+
+#Examples
+#AP v1
+#Get-WindowsAutopilotInfoCommunity -Online -Reboot -Assign -GroupTag CloudJoin
+#v2
+#Get-WindowsAutopilotInfoCommunity -Online -Identifier -Reboot -Assign -GroupTag CloudJoin
